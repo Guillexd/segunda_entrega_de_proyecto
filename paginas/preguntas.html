@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../estilos.css">
+
+    <!-- ANIMATION -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Open+Sans:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+    <title>Preguntas frecuentes</title>
+</head>
+
+<body>
+    <header class="sticky-lg-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="--bs-bg-opacity: .25;">
+
+            <div class="container-fluid">
+
+                <!-- LOGO Y NOMBRE -->
+                <a class="navbar-brand animate__animated animate__fadeInDown" href="../index.html">
+                    <img src="../imagen/logoprincipal.png" alt="logoprincipal" width="40" height="40">
+                </a>
+                <h1 class="animate__animated animate__fadeInDown">HOTEL</h1>
+                <button class="navbar-toggler animate__animated animate__fadeInDown" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- NAVEGACIÓN -->
+                <div class="collapse navbar-collapse justify-content-end animate__animated animate__fadeInDown"
+                    id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="informacion.html">Información</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Sobre nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="preguntas.html">Preguntas frecuentes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="opiniones.html">Opiniones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactanos.html">Contáctanos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL PREGUNTAS.HTML -->
+    <main class="container my-2 my-md-4  acordeonmain" id="premain">
+        <h2>Preguntas frecuentes</h2>
+        <section class="accordion mb-4" id="accordionExample">
+            <div class="accordion-item bg-secondary" style="--bs-bg-opacity:.25">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button bg-warning" style="--bs-bg-opacity:.5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                        aria-expanded="true" aria-controls="collapseOne">
+                        ¿Puedo cancelar o modificar una reserva de hotel?, ¿Qué gastos puede generar una cancelación o modificación de reserva?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Sí, sí puedes.</strong> Pero ten en cuenta que dicha anulación puede conllevar unos gastos de cancelación. Al realizar la
+                        reserva, se informa de la política de cancelación, o bien ésta figura en las condiciones generales.
+                        Estos gastos de cancelación son variables según el destino, el proveedor, la tarifa reservada y las fechas de antelación
+                        a la anulación.
+                        
+                        Para anular o modificar una reserva, se puede mandar un e-mail a través del apartado CONTACTO, a través del apartado MIS
+                        RESERVAS, o llamando directamente al 123456789.
+                        
+                        El coste por modificación de reserva es de 10 euros, además de la diferencia de tarifa si se diera el caso.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item bg-info" style="--bs-bg-opacity:.25">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed bg-warning" style="--bs-bg-opacity:.5" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        ¿Cómo sé si mi reserva de hotel se ha confirmado con éxito?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Una vez finalizado el proceso de compra, aparecerá en tu pantalla un número de localizador y <strong>recibirás un e-mail</strong> con el
+                        estado de la reserva (confirmada o pendiente de confirmar).
+                        
+                        También puedes comprobar el estado en el apartado de MIS RESERVAS.
+                        
+                        Deberás revisar tu correo electrónico en las 24/48 horas siguientes al momento de la compra para comprobar que te ha
+                        llegado el e-mail de confirmación junto con el bono que deberás presentar en el establecimiento.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item bg-light" style="--bs-bg-opacity:.25">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed bg-warning" style="--bs-bg-opacity:.5" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        ¿Si ocurre algún error en el proceso de reserva se confirma igualmente la reserva de hotel?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Si al final del proceso de reserva te apareciera un mensaje de error <strong>debes ponerte en contacto con nosotros</strong> a través del
+                        apartado de CONTACTO o llamando al 123456789 para verificar el estado de la reserva.
+                        
+                        Nuestros agentes intentarán confirmarte en línea la confirmación o no de la reserva.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item bg-warning" style="--bs-bg-opacity:.25">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button bg-warning" style="--bs-bg-opacity:.5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                        aria-expanded="true" aria-controls="collapseFour">
+                        ¿Qué incluye el precio de una reserva de hotel?
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        El precio incluye el <strong>alojamiento</strong>  en el establecimiento para los pasajeros y según tipo de acomodación y <strong>régimen
+                        alimenticio</strong>  que figura en la documentación; además de los impuestos IVA, IGIC.
+                        
+                        Igualmente algunos hoteles pueden pedir una fianza que será devuelta a la salida del hotel.
+                        
+                        Te recordamos que normalmente las bebidas no están incluidas en las comidas.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item bg-danger" style="--bs-bg-opacity:.25">
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button bg-warning" style="--bs-bg-opacity:.5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                        aria-expanded="true" aria-controls="collapseFive">
+                        ¿Puedo realizar reservas para el mismo día?
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Sí,</strong>  tan solo deberás realizar la búsqueda en la página web y te enviaremos el bono que debes
+                        entregar... cuando llegues al hotel tu habitación estará lista.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-3 pb-2" id="sectionpre">
+            <label class="p-3 text-center" for="">¿Algo que quieras saber?</label>
+
+            <input class="p-3" type="email" name="email" id="" placeholder="Tu correo">
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Escribe tu pregunta aquí"></textarea>
+
+            <div id="botonpre" class="d-flex justify-content-evenly mt-3">
+                <button type="button" class="btn btn-secondary btn-lg">Borrar pregunta</button>
+
+                <button type="button" class="btn btn-primary btn-lg">Enviar pregunta</button>
+            </div>
+            
+        </section>
+    </main>
+
+    <!-- PIE DE PÁGINAS -->
+    <div class="bg-light redondeo" style="--bs-bg-opacity: .5;">
+        <br>
+    </div>
+    <footer class="bg-light" style="--bs-bg-opacity: .5;">
+
+        <section class="container">
+            <div class="row d-flex flex-wrap align-items-center py-3 border-top">
+                <div class="col-12 col-lg-4 d-flex justify-content-evenly ">
+                    <a href="https://www.facebook.com" target="_blank"><img src="../imagen/fb.png" alt="facebook"></a>
+                    <a href="https://www.twitter.com" target="_blank"><img src="../imagen/tw.png" alt="twitter"></a>
+                    <a href="https://www.instagram.com" target="_blank"><img src="../imagen/inst.png"
+                            alt="instagram"></a>
+                    <a href="https://www.youtube.com" target="_blank"><img src="../imagen/youtube.png"
+                            alt="youtube"></a>
+                    <a href="https://www.tiktok.com" target="_blank"><img src="../imagen/tiktok.png" alt="tik tok"></a>
+                </div>
+
+
+                <ul class="nav col-12 col-lg-8 justify-content-sm-center justify-content-lg-end px-3 mt-3">
+                    <li class="nav-item pie"><a href="../index.html" class="nav-link px-2 text-muted">Home</a></li>
+                    <li class="nav-item pie"><a href="informacion.html" class="nav-link px-2 text-muted">Info</a>
+                    </li>
+                    <li class="nav-item pie"><a href="nosotros.html" class="nav-link px-2 text-muted">Nosotros</a>
+                    </li>
+                    <li class="nav-item pie"><a href="preguntas.html" class="nav-link px-2 text-muted">Preguntas</a>
+                    </li>
+                    <li class="nav-item pie"><a href="opiniones.html" class="nav-link px-2 text-muted">Opiniones</a>
+                    </li>
+                    <li class="nav-item pie"><a href="contactanos.html" class="nav-link px-2 text-muted">Contáctanos</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="footersectionDos">
+            <div class="d-flex justify-content-center">
+                <div class="d-lg-flex">
+                    <p><img class="pe-3" src="../imagen/logocellphone.png" alt="telefono">01-23-45-67-89</p>
+                    <p><img class="pe-3" src="../imagen/logogmail.png" alt="correo">enriquejunior@gmail.com
+                    </p>
+                    <p><img class="pe-3" src="../imagen/logomaps.png" alt="dirección">Av.Narnia 1234567</p>
+                </div>
+            </div>
+        </section>
+
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
