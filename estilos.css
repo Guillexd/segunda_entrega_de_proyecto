@@ -9,6 +9,10 @@
     font-family: 'Open Sans',
     sans-serif;
 }
+.linkeos{
+    text-decoration: none;
+    color: black;
+}
 body{
     background: #8360c3;
     background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);
@@ -33,6 +37,12 @@ body{
         /* configurando slider */
 #imagenesSlider img{
     height: 60vh;
+}
+#imagenesSlider h5 {
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(129, 199, 178);
+
 }
 
         /* ajustando video e imágenes */
