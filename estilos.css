@@ -18,6 +18,21 @@ body{
     background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);
     background: linear-gradient(to right, #2ebf91, #8360c3);
 }
+iframe, form{
+    animation-name: animar;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: .1s;
+    animation-iteration-count: 1;
+}
+@keyframes animar {
+    0%{
+        transform: translateY(-100px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
 
 /* MOBILE FIRST */
 
