@@ -338,7 +338,7 @@ body{
     padding: 10px 30px;
     font-size: 20px;
     border-bottom-left-radius: 20%;
-    border-top-right-radius: 20%;
+    border-top-right-radius: 10%;
 }
 
             /* SEGUNDO DIV */
@@ -346,11 +346,6 @@ body{
     display: flex;
     flex-direction: column;
     font-size: 20px;
-}
-
-.opcion {
-    padding: 10px;
-    margin: 10px 0;
 }
 
 .verde:active {
@@ -374,17 +369,16 @@ body{
 }
 
             /* TERCER DIV */
+.contDivTres{
+    display: flex;
+    justify-content: center;
+}
 .contDivTres textarea {
     font-size: 20px;
-    width: 80vw;
-    height: 50vh;
+    width: 80%;
+    height: 40vh;
     border-radius: 5%;
     padding: 20px;
-}
-
-
-.send:active {
-    background-color: rgba(117, 250, 157, 0.856);
 }
 
 /* OCULTANDO E INTERACTUANDO CON CHECKBOX, SEGUNDO DIV*/
@@ -633,16 +627,16 @@ body{
     }
                     /* FORMULARIO */
     .contForm {
-        width: 50vw;
+        width: 40vw;
     }
     
                     /* PRIMER DIV */
     
     .contDivUno {
-        display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         width: 90%;
-        justify-content: space-between;
+        justify-content: space-evenly;
         padding-top: 40px;
     }
     
@@ -651,6 +645,9 @@ body{
         border-top-right-radius: 0;
         width: 40%;
         padding: 15px;
+    }
+    .contDivUno .correo{
+        width: 86%;
     }
     
                     /* SEGUNDO DIV */
@@ -669,36 +666,40 @@ body{
     
     .verde:hover {
         background-color: #58bb2a80;
+        transform: scale(1.1);
+        transition: all .2s ease;
     }
     
     .rojo:hover {
         background-color: #bb2a3680;
+        transform: scale(1.1);
+        transition: all .2s ease;
     }
     
     .azul:hover {
         background-color: #992abb80;
+        transform: scale(1.1);
+        transition: all .2s ease;
     }
     
     .gris:hover {
         background-color: #00000080;
+        transform: scale(1.1);
+        transition: all .2s ease;
     }
     
     .amarillo:hover {
         background-color: #5ce227b9;
+        transform: scale(1.1);
+        transition: all .2s ease;
     }
     
                     /* TERCER DIV */
     
-    .contDivTres {
-        display: flex;
-        width: 52vw;
-    }
-    
     .contDivTres textarea {
         font-size: 20px;
-        width: 80%;
+        width: 95%;
         height: 30vh;
-        margin: auto;
     }
     
 }
